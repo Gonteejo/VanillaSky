@@ -1,0 +1,40 @@
+@use 'variaveis';
+
+.hero {
+    position: relative;
+    max-height: 99vh;
+    width: 100vw;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    margin-top: -76px;
+    
+
+    &__container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 5.6vw;
+        position: relative;
+        z-index: 0;
+        height: 100%;
+
+
+        h2 {
+            font-size: 2.5vw;
+            color: variaveis.$cor05;
+            font-family: Helvetica-Neue;
+            font-weight: 700;
+            text-align: right; 
+            text-shadow: 2px 2px variaveis.$cor01;
+          }
+    }
+
+    &__video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+        object-fit: fill;
+    }
+}

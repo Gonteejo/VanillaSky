@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <title>Vanilla Sky</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/midia/logo.webp" alt="Vanilla Sky">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#sinopse" class="button button--secondary">SINOPSE</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#trailer" class="button button--dark">Trailer</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <video class="hero__video" id="video" autoplay loop muted>
+            <source src="./dist/midia/Backgroundmovie.mp4" type="video/mp4">
+        </video>
+        <div class="hero__container">
+            <h2 class="typing"></h2>
+        </div>
+    </section>
+    <section class="image-text-section" id="sinopse">
+        <img src="./dist/midia/Sinopse.avif" alt="">
+        <div class="image-text-section__text_container">
+            <h3 class="title">SINOPSE</h3>
+            <p  class="text--big">Não recomendado para menores de 14 anos
+                Em Vanilla Sky são narrados em flashback fatos angustiantes da vida de David Aames (Tom Cruise), um jovem empresário que é dono de um império editorial. David tem sua vida modificada quando conhece Sofia Serrano (Penélope Cruz), uma bela jovem por quem se apaixona .Tal relacionamento desperta ciúmes em Julie Gianni (Cameron Diaz), uma amizade colorida de Davis, que quer muito mais que mero envolvimento sexual com ele. Um dia, após sair da casa de Sofia, David encontra Julie, que usando o pretexto de querer conversar com ele o convence a entrar no carro dela. Em um ímpeto de loucura, e cega por se sentir preterida, ela lança o carro por cima de um viaduto. Ela não resiste ao impacto e morre. David sobrevive, mas fica com o rosto bem desfigurado e entra em coma, ficando neste estado por três semanas. Ao se ver David fica traumatizado e oferece qualquer quantia para reconstruírem seu rosto. Repentinamente realidade e fantasia se confundem de forma assustadora.
+            </p>
+        </div>
+
+    </section>
+    <section class="trailer" id="trailer">
+        <h3 class="title">Trailer</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k09OX40NLUw?si=veSvsTguZ4QwuzGr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <footer>
+        <div class="footer__container">
+            <p>Cada minuto que passa é outra chance de mudar tudo</p>
+            <p>Conteúdo produzido para fins didáticos, caso sinta que teve seus direitos violados entre em contato que removeremos do site.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./dist/js/main.js"></script>
+</body>
+
+</html>
